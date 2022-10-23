@@ -1,21 +1,34 @@
+import 'dart:math';
+
 void main() {
 
-                          // -----DATA TYPE-----
+//                           // -----DATA TYPE-----
 
 //   // String
 //   String name= "fahad";
 //   print(name);
 
-//   // number
+//   // number  1.int 2.double
 //   int x=40;
 //   print(x);
+
+//   // floot/double
 //   double a=4.5;
 //   print(a);
-//   // floot
+
+//   //bool
 //   bool my_pos_bool= true;
 //   print(my_pos_bool);
 //   bool my_nag_bool= false;
 //   print(my_nag_bool); 
+
+//   // *****Chacking Data type*****
+//   print(name.runtimeType);
+//   print(x.runtimeType);
+//   print(a.runtimeType);
+//   print(my_pos_bool.runtimeType);
+//   print(my_nag_bool.runtimeType);
+
 
 // /*
 //   Variable::
@@ -74,7 +87,6 @@ void main() {
 // print(18%n2);
 
 //                           // Relational and Logical Operators
-
 // var p=2;
 // var q=3;
 // print(p==q);

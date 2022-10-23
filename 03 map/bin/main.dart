@@ -1,7 +1,7 @@
 // there is 2 ways to creat map 1.litteral & 2.Construcktor
 void main(){
 // "***Way 1: Literal***"
-print("***Way 1: Literal***");
+  print("***Way 1: Literal***");
   var student={"name":"Fahad","age":25,"city":"Chattogram","phone":"01980317133"};
   
   print(student);
