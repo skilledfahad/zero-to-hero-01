@@ -4,7 +4,7 @@
 # # string/litteral
 # a=str("I am ")
 
-# number //1.int  2.float/double
+# # #number //1.int  2.float/double
 # b=int(25)
 
 # c=float(3.47)
@@ -18,6 +18,13 @@
 # print(posi_tive)
 # nega_tive=(False)
 # print(nega_tive)
+
+# # # Chacking Data type
+# print(type(a))
+# print(type(b))
+# print(type(c))
+# print(type(posi_tive))
+# print(type(nega_tive))
 
 
 # # for commpn use we don't need to use Str; float; int; or bool; 
@@ -42,9 +49,9 @@
 
                               # -----Opperator-----
 
-# print("                      -----Opperator-----");
+# print("-------------Opperator-------------");
 
-#                      Arithmetic Operators: +, -, *, /, **, %, and //
+# #                     Arithmetic Operators: +, -, *, /, **, %, and //
 
 # n1=20
 # n2=10
