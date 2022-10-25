@@ -10,7 +10,6 @@ void main() {
   list2[5] = "fosir";
 
   list2.add("Gosir");
-
   print(list2);
 
   // To check whether, and where, the element is in the list, use indexOf
