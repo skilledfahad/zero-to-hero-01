@@ -64,27 +64,27 @@ void main() {
 
 //                           // -----Opperator-----
 
-// print("                      -----Opperator-----");
-// //                 Arithmetic Operators: +, -, *, /, %,
-// var n1=20;
-// var n2=10;
-// print("n1+n2");
-// print(n1+n2);
+print("                      -----Opperator-----");
+//                 Arithmetic Operators: +, -, *, /, %,
+var n1=20;
+var n2=10;
+print("n1+n2");
+print(n1+n2);
 
-// print("n1-n2");
-// print(n1-n2);
+print("n1-n2");
+print(n1-n2);
 
-// print("n1*n2");
-// print(n1*n2);
+print("n1*n2");
+print(n1*n2);
 
-// print("n1/n2");
-// print(n1/n2);
+print("n1/n2");
+print(n1/n2);
 
-// print("n1^2");
-// print(pow(n1,2));
+print("n1^2");
+print(pow(n1,2));
 
-// print("18%20  **Vagsas k purno sonkay return koray");
-// print(18%n2);
+print("18%20  **Vagsas k purno sonkay return koray");
+print(18%n2);
 
 //                           // Relational and Logical Operators
 // var p=2;

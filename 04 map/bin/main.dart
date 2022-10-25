@@ -9,38 +9,40 @@ void main(){
   print(student.values);
   print(student.isNotEmpty);
 
-  // "***Way 2: Constructor***"
 
-  print("***Way 2: Constructor***");
 
-  var teacher=new Map();
-  teacher["name"]="Ullash";
-  teacher["age"]=33;
+  // // "***Way 2: Constructor***"
 
-  print(teacher);
+  // print("***Way 2: Constructor***");
 
-  // adding 1 pair
-  print("++++adding 1 new pair++++r");
+  // var teacher=new Map();
+  // teacher["name"]="Ullash";
+  // teacher["age"]=33;
 
-  teacher["blood Group"]="O+";
-  print(teacher);
+  // print(teacher);
 
-  // adding many pair
-  print("++++adding many pair++++");
+  // // adding 1 pair
+  // print("++++adding 1 new pair++++r");
 
-  teacher.addAll({"dept":"MT","Edu":"Diploma in MT"});
-  print(teacher);
+  // teacher["blood Group"]="O+";
+  // print(teacher);
+
+  // // adding many pair
+  // print("++++adding many pair++++");
+
+  // teacher.addAll({"dept":"MT","Edu":"Diploma in MT"});
+  // print(teacher);
   
-  // removing pair
-  print("----removing pair----");
+  // // removing pair
+  // print("----removing pair----");
 
-  teacher.remove("blood Group");
-  print(teacher);
+  // teacher.remove("blood Group");
+  // print(teacher);
 
-  // clearing all
-  print("----clearing all----");
+  // // clearing all
+  // print("----clearing all----");
 
-  teacher.clear();
-  print(teacher);
+  // teacher.clear();
+  // print(teacher);
 
 }

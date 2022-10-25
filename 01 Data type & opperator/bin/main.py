@@ -11,7 +11,11 @@
 
 # print(a+"Fahad Hossen") #adding string + string
 # print(a+str(b))
-# print("My CGPA: "+str(c)) #adding string + number :: convert number to string
+# print("My CGPA: "+str(c)) #way1..adding string + number :: convert number to string
+
+# age = 36
+# txt = "My name is fahad, and I am {}" 
+# print(txt.format(age)) #way2..adding string + number :: convert number to string
 
 # #boolean
 # posi_tive=bool(True)
