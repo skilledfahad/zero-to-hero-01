@@ -12,8 +12,8 @@
 
 
 # # +++++++++++++ way 2 of writting list++++++++++++
-frut_list = list(("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")) # note the double round-brackets
-print(frut_list)
+# frut_list = list(("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")) # note the double round-brackets
+# print(frut_list)
 # print(frut_list[2])
 # print(frut_list [0:-4])
 # print(frut_list.index("banana"))
@@ -42,6 +42,8 @@ print(frut_list)
 
 # frut_list[0:3]=["angur","badam","chalta"]
 # print(frut_list)
+
+
 
 
 

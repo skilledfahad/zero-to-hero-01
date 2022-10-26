@@ -28,6 +28,4 @@ print(fruits.length);
 print(fruits.first);
 print(fruits.last);
 print(fruits.isEmpty);
-
-
 }
