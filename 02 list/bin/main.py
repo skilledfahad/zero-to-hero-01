@@ -1,4 +1,4 @@
-# #+++++++++++ way 1 of writting list++++++++++
+# # +++++++++++ way 1 of writting list ++++++++++
 # student=["Arif","Bosir","Chohan"]
 # print(student)
 # print(len(student))
@@ -11,7 +11,7 @@
 # print(student)
 
 
-# # +++++++++++++ way 2 of writting list++++++++++++
+# # +++++++++++++ way 2 of writting list ++++++++++++
 # frut_list = list(("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")) # note the double round-brackets
 # print(frut_list)
 # print(frut_list[2])
@@ -23,7 +23,7 @@
 # frut_list.extend(frut_list_1)
 # print(frut_list)
 
-# #----removing data
+# # ---removing data
 # frut_list.remove("apple") #by value
 # print(frut_list)
 
@@ -36,27 +36,9 @@
 # frut_list.clear() #remove all
 # print(frut_list)
 
-# #--- replace
+# # ---replace
 # frut_list[0]="angur"
 # print(frut_list)
 
 # frut_list[0:3]=["angur","badam","chalta"]
 # print(frut_list)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
