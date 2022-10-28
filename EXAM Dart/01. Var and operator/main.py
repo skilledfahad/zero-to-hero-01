@@ -6,6 +6,7 @@ global score
 score=0
     
 def qnA():
+  q=q.replace(" ","")
   if (q==ans):
     global score
     score+= 1

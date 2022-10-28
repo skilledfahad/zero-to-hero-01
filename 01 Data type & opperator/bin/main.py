@@ -2,7 +2,10 @@
 
 # # common data_type in python
 # # string/litteral
-# a=str("I am ")
+a=str("   I am  ")
+print(a)
+# print(a.strip()) #remove white space
+print(a.replace(" ",""))
 
 # # #number //1.int  2.float/double
 # b=int(25)
