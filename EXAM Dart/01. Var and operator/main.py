@@ -26,5 +26,5 @@ qnA()
 
 # q3
 q=str(input("Q 3 :: Assain \"a=4.5\" using \"float\" \nAns ::"))
-ans=('double a=4.5;')
+ans="double a=4.5;"
 qnA()

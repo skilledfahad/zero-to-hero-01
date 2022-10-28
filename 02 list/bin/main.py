@@ -1,14 +1,15 @@
 # # +++++++++++ way 1 of writting list ++++++++++
-# student=["Arif","Bosir","Chohan"]
-# print(student)
+student=["Arif","Bosir","Chohan"]
+student2=["avc","abd"]
+print(student)
 # print(len(student))
 # print("List item no:: 4 = " + str(student[4]))
 
 
 # # ---adding singel data
-# student.insert(1,"Denas") #student.insert(INDEX_NUM,"Denas")
+student.insert(1,"Denas") #----student.insert(INDEX_NUM,"Denas")
 # student.append("Sohan") #adding something at the end
-# print(student)
+
 
 
 # # +++++++++++++ way 2 of writting list ++++++++++++

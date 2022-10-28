@@ -5,7 +5,7 @@ void main() {
 //                           // -----DATA TYPE-----
 
 //   // String
-//   String name= "fahad";
+// String name= "fahad";
 //   print(name);
 
 //   // number  1.int 2.double
@@ -28,6 +28,9 @@ void main() {
 //   print(a.runtimeType);
 //   print(my_pos_bool.runtimeType);
 //   print(my_nag_bool.runtimeType);
+
+//  // length chack
+//   print(name.length);
 
 
 // /*

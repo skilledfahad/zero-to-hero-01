@@ -20,7 +20,7 @@ void main(){
   // print(fruits);
 
   // //  ++++++Special print+++++
-  // fruits.forEach((value) {
+  // fruits.forEach(value) {
   //   print('Value: $value');
   // });
 
