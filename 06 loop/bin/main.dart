@@ -1,5 +1,4 @@
-void main(){
-
+void main() {
   // for loop
   // for(var x=01;x<=100;x++){
   //   print("$x I love You");
@@ -13,15 +12,27 @@ void main(){
   //   print("$x is a good student");
   //     if (y==5){
   //       print(x);
-  //     }    
+  //     }
   // }
-  var list2=[{"name":"Arif Chowdury", "age":26, "city":"cox-bazar"},
-            {"name":"Fahad Hossen", "age":25, "city":"chittagong"},
-            {"name":"Basar Haq", "age":25, "city":"chittagong"}];
-  for(var x in list2){    
+  // var list2=[{"name":"Arif Chowdury", "age":26, "city":"cox-bazar"},
+  //           {"name":"Fahad Hossen", "age":25, "city":"chittagong"},
+  //           {"name":"Basar Haq", "age":25, "city":"chittagong"}];
+  // for(var x in list2){
 
-    if(x["age"]==25){
-      print(x["name"]);
+  //   if(x["age"]==25){
+  //     print(x["name"]);
+  //   }
+  // }
+
+  // continue  and break
+  for (var i = 0; i < 7; i++) {
+    if (i == 2) {
+      continue;
     }
+    if (i == 4) {
+      break;
+    }
+
+    print(i);
   }
 }
