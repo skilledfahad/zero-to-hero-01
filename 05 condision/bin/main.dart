@@ -28,7 +28,6 @@ var cmn="your result :";
 
 // Switch
 int n=1;
-
 switch(n){
   case 1:
     print("Scour A+");
