@@ -43,3 +43,4 @@ student.insert(1,"Denas") #----student.insert(INDEX_NUM,"Denas")
 
 # frut_list[0:3]=["angur","badam","chalta"]
 # print(frut_list)
+

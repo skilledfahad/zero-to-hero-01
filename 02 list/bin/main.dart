@@ -53,12 +53,12 @@ void main() {
 
                           //----replace
                           
-  var even_list = [1,3,5,8,10]; 
-  print(even_list); 
-  even_list[2] = 6; //replace single value
-  print(even_list); 
-  even_list.replaceRange(0, 3, [2,4,6]); // replace by range
-  print(even_list);
+  // var even_list = [1,3,5,8,10]; 
+  // print(even_list); 
+  // even_list[2] = 6; //replace single value
+  // print(even_list); 
+  // even_list.replaceRange(0, 3, [2,4,6]); // replace by range
+  // print(even_list);
 
 
   // // ###string###
@@ -67,4 +67,5 @@ void main() {
   // print(listS);
 
   // print("printing list length ${listS.length}");
+
 }

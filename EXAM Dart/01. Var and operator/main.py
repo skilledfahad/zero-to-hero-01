@@ -6,8 +6,8 @@ global score
 score=0
     
 def qnA():
-  q=q.replace(" ","")
-  if (q==ans):
+  q1=q.replace(" ","")
+  if (q1==ans):
     global score
     score+= 1
     print("Correct Ans. score :: "+str(score)+nx)
