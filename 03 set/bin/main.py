@@ -25,6 +25,14 @@ print(len(fruits))
 # fruits.clear()
 # print(fruits)
 
+# # union ....intersection....symmetric
+team1={"arif","bahar","Chami","mukul"}
+team2={"sefat","arif","abid","Chami","sorif"}
+
+team3=team1.union(team2)
+print(team3)
+
+
 
 
 
