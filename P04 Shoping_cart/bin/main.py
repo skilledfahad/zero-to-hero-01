@@ -15,8 +15,7 @@ def shopinglist():
 
     return shoplist
 
-
-mylist = {}
+mylist = {} 
 mylist.update(shopinglist())
 
 for x, y in mylist:
