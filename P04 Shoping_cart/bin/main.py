@@ -18,5 +18,5 @@ def shopinglist():
 mylist = {} 
 mylist.update(shopinglist())
 
-for x, y in mylist:
+for x, y in mylist.items():
     print(x,y)
