@@ -1,13 +1,13 @@
 void main() {
-  // // fixed length list
-  // print("*****Fixed length list*****");
-  // var list2 = List.filled(6, "A", growable: true);
-  // list2[0] = "arif";
-  // list2[1] = "Bosir";
-  // list2[2] = "cosir";
-  // list2[3] = "dosir";
-  // list2[4] = "eosir";
-  // list2[5] = "fosir";
+  // fixed length list
+  print("*****Fixed length list*****");
+  var list2 = List.filled(6, "A", growable: true);
+  list2[0] = "arif";
+  list2[1] = "Bosir";
+  list2[2] = "cosir";
+  list2[3] = "dosir";
+  list2[4] = "eosir";
+  list2[5] = "fosir";
 
   // list2.add("Gosir");
   // print(list2);
