@@ -5,7 +5,7 @@ print(student)
 # print(student)
 # print(student.keys())
 # print(student.values())
-
+# # ====acces by loop=====
 # for x in student.keys():
 #   print(x)
 # for y in student.values():
@@ -33,6 +33,19 @@ print(student)
 student.clear()
 print(student)
 
+
+# #=============== Nasted directory (directory inside directory) ================
+child1 = {
+    "name": "ali",
+    "age": 1
+    }
+child2 = {"name": "Hamza", "age": 3}
+
+children = {"child1": child1, "child2": child2}
+
+print(children)
+
+print(children["child1"]["age"])
 
 
 

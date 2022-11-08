@@ -1,24 +1,29 @@
 // there is 2 ways to creat map 1.litteral & 2.Construcktor
 void main(){
-// "***Way 1: Literal***"
-  print("***Way 1: Literal***");
-  var student={"name":"Fahad","age":25,"city":"Chattogram","phone":"01980317133"};
+// // "***Way 1: Literal***"
+//   print("***Way 1: Literal***");
+//   var student={"name":"Fahad","age":25,"city":"Chattogram","phone":"01980317133"};
   
-  print(student);
-  print(student.keys);
-  print(student.values);
-  print(student.isNotEmpty);
-
   // // "***Way 2: Constructor***"
 
-  // print("***Way 2: Constructor***");
+  print("***Way 2: Constructor***");
 
-  // var teacher=new Map();
-  // teacher["name"]="Ullash";
-  // teacher["age"]=33;
+  var teacher=new Map();
+  teacher["name"]="Ullash";
+  teacher["age"]=33;
 
-  // print(teacher);
+// // ============Acccessing in map ========
+  print(teacher);
+  print(teacher["name"]);
+  print(teacher["age"]);
+  print(teacher);
+  print(teacher.keys);
+  print(teacher.values);
+  print(teacher.isNotEmpty);
 
+// acces by loop
+  teacher.forEach((key, value) => print("$key ""$value"));
+ 
   // // adding 1 pair
   // print("++++adding 1 new pair++++r");
 
@@ -41,5 +46,19 @@ void main(){
 
   // teacher.clear();
   // print(teacher);
+
+// //=============== Nasted directory (directory inside directory) ================
+
+// var child1 = {
+//     "name": "ali",
+//     "age": 1
+//     };
+// var child2 = {"name": "Hamza", "age": 3};
+
+// var children = {"child1": child1, "child2": child2};
+
+// print(children);
+
+// print(children["child1"]);
 
 }
