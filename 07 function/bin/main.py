@@ -68,14 +68,29 @@
 # def myfunction():
 #   pass
 
-# Recursion :: A function calling itself
-def passnum(x):
-  if x<33:
-    result= passnum(x+1)
-  else:
-    result=x
+# # Recursion :: A function calling itself
+# def passnum(x):
+#   if x<33:
+#     result= passnum(x+1)
+#   else:
+#     result=x
 
-  return result
+#   return result
 
-y=passnum(30)  
-print(y)
+
+# y=passnum(30)  
+# print(y)
+
+# # Short hand for Function
+# # func_name = lambda arguments : expression
+# add_tow_num = lambda a,b: a+b  # //usefull for making simple short function
+
+# print(add_tow_num(2,4))
+
+# **Advance move**
+def multi_x_time(x):
+  return lambda a : a * x
+
+mynum = multi_x_time(2)
+
+print(mynum(10))
