@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'dart:math';
 
 void main() {
@@ -137,5 +136,5 @@ void main() {
 
   var numis = "20"; // A string
   var xd = int.parse(numis);
-  print(xd+xd);
+  print(xd);
 }
