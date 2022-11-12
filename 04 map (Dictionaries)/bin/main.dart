@@ -6,23 +6,23 @@ void main(){
   
   // // "***Way 2: Constructor***"
 
-  print("***Way 2: Constructor***");
+//   print("***Way 2: Constructor***");
 
-  var teacher=new Map();
-  teacher["name"]="Ullash";
-  teacher["age"]=33;
+//   var teacher=new Map();
+//   teacher["name"]="Ullash";
+//   teacher["age"]=33;
 
-// // ============Acccessing in map ========
-  print(teacher);
-  print(teacher["name"]);
-  print(teacher["age"]);
-  print(teacher);
-  print(teacher.keys);
-  print(teacher.values);
-  print(teacher.isNotEmpty);
+// // // ============Acccessing in map ========
+//   print(teacher);
+//   print(teacher["name"]);
+//   print(teacher["age"]);
+//   print(teacher);
+//   print(teacher.keys);
+//   print(teacher.values);
+//   print(teacher.isNotEmpty);
 
-// acces by loop
-  teacher.forEach((key, value) => print("$key ""$value"));
+// // acces by loop
+//   teacher.forEach((key, value) => print("$key ""$value"));
  
   // // adding 1 pair
   // print("++++adding 1 new pair++++r");
@@ -49,16 +49,19 @@ void main(){
 
 // //=============== Nasted directory (directory inside directory) ================
 
-// var child1 = {
-//     "name": "ali",
-//     "age": 1
-//     };
-// var child2 = {"name": "Hamza", "age": 3};
+// // way --1
+var child1 = {
+    "name": "ali",
+    "age": 1
+    };
+var child2 = {"name": "Hamza", "age": 3};
+var children = [child1,child2];
 
-// var children = {"child1": child1, "child2": child2};
+// // way --2
+// var children = [{"name": "ali", "age": 1}, {"name": "Hamza", "age": 3}] ; 
 
-// print(children);
+print(children);
 
-// print(children["child1"]);
+      children.forEach((element) => print(element["age"]));
 
 }
