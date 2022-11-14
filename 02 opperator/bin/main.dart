@@ -1,4 +1,4 @@
-import 'dart:math';
+// import 'dart:math';
 void main() {
 
   //                           // -----Opperator-----
@@ -47,7 +47,7 @@ var d=(a<b) & (a<c);
 print(d);
 var e=(a<b) & (b<c);
 print(e);
-print(a<b);
+print(!(a<b));
 var f=(b<c) || (c<a);
 print(f);
 var g=(b<c) || (c>=a);
